@@ -1,0 +1,136 @@
+/*html *{
+    font-family: 'Century Gothic';
+}*/
+.menu_divers  *{
+    margin-top: 3px; 
+}
+
+table{
+    margin-top: 10px;
+}
+
+.btn_ctrl button{
+    margin: 8px 0px;
+}
+
+td button {
+    margin: 3px 0;
+}
+
+#formulaire_login {
+    margin-top: 6% ;
+}
+
+.menu_divers{
+    /* box-shadow: 2px 3px 3px #F0F0F0;*/
+    padding: 5px;
+}
+
+.menu_pple{
+    background-color: #F9F9F9;
+}
+
+#liste_pages tr,#liste_client tr,#liste_boost tr{
+    box-shadow: 2px 3px 3px #F0F0F0;
+}
+/*
+.cont_table{
+        overflow: auto;
+        max-height: 450px; 
+        margin-top: 10px;
+    }
+
+
+@media only screen and (max-width: 768px){
+    .cont_table{
+        overflow: auto; 
+        max-height: 500px; 
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .cont_table{
+        overflow: auto; max-height: 450px; margin-top: 10px;
+    }
+}*/
+
+#titra{
+    font-family: 'Century Gothic';
+    color: #06fb1d; 
+    font-size: 45px;
+    text-shadow: 2px 3px 3px #AAAAAA;
+    /*font-weight: bold;*/
+}
+/*'<?php echo base_url() . "assets/img/boost.jpg"?>'*/
+
+@media only screen and (min-width: 768px){
+    .div_compte{
+        width: 48%;
+        margin: 5px 8px;
+        border: 0.1px solid #F1F3F4;
+        border-left: 4px solid #0086b3;
+        border-radius: 5px;
+        box-shadow: 2px 3px 3px #F0F0F0;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .div_compte{
+        margin: 5px 0px; 
+        border: 0.1px solid #F1F3F4;
+        border-left: 4px solid #0086b3;
+        border-radius: 5px;
+        box-shadow: 2px 3px 3px #F0F0F0;
+        height: 80px;
+    }
+}
+
+tr{
+    border-left: 1px solid #0086b3;
+    margin-top: 50px;
+}
+
+.modal-header{
+    background-color: #0086b3;
+    color: white;
+}
+
+.modal-body{
+    min-height: 100px;
+}
+
+
+.modal-body button,.modal-footer button,
+.modal-body select,.modal-footer select,
+.modal-body input,.modal-footer input{
+    border-radius: 0% !important;
+    box-shadow: 2px 3px 3px #F0F0F0;
+}
+
+button,select,input{
+    border-radius: 0% !important;
+    box-shadow: 2px 4px 3px #F0F0F0;
+}
+
+html *{
+    font-family: 'Century Gothic';
+}
+
+#myModal button{
+    border-radius: 0% !important;
+}
+
+
+.div_compte_titre{
+    margin: 5px 0px; 
+    border: 1px solid #F1F3F4;
+    border-top: 4px solid #0086b3;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px #F0F0F0;
+    height: 120px;
+}
+
+.val_info{
+    padding-left: 20px;
+}
